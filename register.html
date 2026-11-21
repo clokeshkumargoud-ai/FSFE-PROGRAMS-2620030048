@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html style="background-color: darkkhaki;">
+    <head>
+        <title>REGISTER</title>
+    </head>
+    <body align="left">
+        <h1>EMPLOYEE REGISTER FORM</h1>
+        <form action="Selector.html" method="post">
+            <lable name="fname">EMPLOYEE NAME:</lable>
+            <input type="text" target="fname" name="g1" autofocus required placeholder="Enter your name"><br><br>
+            PASSWORD:<input type="text" name="g2" required minlength="6"><br><br>
+            EMAIL<input type="email" name="g3" required placeholder="ENTER YOUR EMAIL"><br><br>
+            MOBILE NUMBER:<input type="number" name="g4" pattern="[0-9] {10}" required><br><br>
+            Age:<input type="number" name="g5"required minlength="2"><br><br>
+            DATE OF BIRTH:<input type="date" name="g6"><br><br>
+            PREFERED INTERVIEW TIME:<input type="time" name="g7"><br><br>
+            GENDER:<input type="radio" name="g8">male &nbsp;<input type="radio" name="g8">Female<br><br>
+            SKILLS:<input type="checkbox" name="g9">HTML &nbsp;<input type="checkbox" name="g9">CSS &nbsp;<input type="checkbox" name="g9">JAVA SCRIPT<br><br>
+            SELECT DEPARTMENT:<select name="g10">NONE
+                <option>CSE</option>
+                <option>ECE</option>
+                <option>AIDS</option>
+                <option>CSIT</option>
+            </select><br><br>
+            UPLODE RESUME<input type="file" name="g11" accept=".pdf,.jpg,.png"><br><br>
+            ADDRESS:<textarea name="g12" rows="4" cols="30" required placeholder="ENTER YOUR ADDRESS"></textarea><br><br>
+            WORK EXPERIENCE<input type="range" name="g13" min="1" max="100" required><br><br>
+            LINKEDIN PROFILE <input type="url" name="g14" placeholder="ENTER YOUR PROFILE"><br><br>
+            <button type="submit" name="g15">SUBMIT</button>&nbsp;<button type="reset" name="g16">RESET</button>
+
+        </form>
+        
+        
+    </body>
+</html>
